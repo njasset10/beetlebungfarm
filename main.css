@@ -3,15 +3,17 @@
 
 div {
     font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
 }
 
 .heroImage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('photos/farmView.jpeg');
+    background-image: url('photos/farmView.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: static;
     height: 600px;
+    width: 100%;
 }
   
 .heroText {
@@ -20,34 +22,34 @@ div {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color:#27261F;
     width: 70%;
     font-size: 1.5rem;
     font-family: 'Varela Round', sans serif;
+    letter-spacing: 2px;
 }
 
-h1 {
-    font-size: 1rem;
+.footer {
+    background: #3C5454;
+    color: #E2E2CF;
+    overflow: visible; 
 }
 
 .centeredFooterText {
     justify-content: center;
     text-align: center;
     font-size: 1rem;
-    margin: 6% 6% 6% 6%;
+    padding: 6% 6% 6% 6%;
 }
 
-.footer {
-    background: #3C5454;
-    color: white;
-    overflow: auto; 
-}
 
 .closer {
-    width: 100%;
-    height: 500px;
-    background-image: url('photos/sheepOnFarm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    height: 600px;
+    background-image: url('photos/sheepOnFarm.jpg');
 }
 
 
@@ -58,55 +60,79 @@ h1 {
 
 .about {
     background: #3C5454;
-    color: white;
-    overflow: auto; 
+    color: #E2E2CF;
+    overflow: visible; 
+    padding: 2% 5% 2% 8%;
+    border-top:42px solid #3C5454;
+}
+
+.aboutImage {
+    width: 300px;
+    margin: 5% 0% 5% 0%;
+}
+
+.joinImage {
+    width: 300px;
+    margin: 5% 0% 5% 0%;
+}
+
+.center {
+    text-align: center;
 }
 
 .aboutSectionHeader {
-    border-bottom: 1px solid white;
-    width: auto;
+    border-bottom: 1px solid #E2E2CF;
     display: inline-block;
-    padding: 2% 0% 0.5% 0%;
-    margin: 5% 5% 2% 5%;
-    letter-spacing: 3px;
+    padding: 0% 0% 1% 0%;
+    margin: 5% 0 5% 0;
 }
 
-
 .aboutText {
-    width: auto;
-    padding: 2px 2px 2px 2px;
-    margin: 0% 5% 5% 5%;
     font-family: 'Varela Round', sans serif;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+.joinText {
+    font-family: 'Varela Round', sans serif;
+    letter-spacing: 2px;
 }
 
 .navbarStyle {
-    letter-spacing: 3px;
     margin-left: auto; 
     margin-right: auto;
+}
+
+a.nav-link{
+    color: #27261F;
+}
+
+.otherNavItem {
+    padding: 20px 0 0 0 !important;
+    font-size: 1rem !important;
 }
 
 .space {
-    padding: 0% 7% 0% 7%;
-    text-align: center;
-    margin-left: auto; 
-    margin-right: auto;
-    white-space: nowrap;
+    padding: 0 50px 0 50px;
+    vertical-align: middle;
 }
 
+.active {
+    font-size: 2rem;
+}
 
 .join {
     background: #9E754A;
-    color: white;
-    overflow: auto;
+    color: #E2E2CF;
+    overflow: visible;
+    padding: 2% 8% 2% 8%;
 }
 
 .joinSectionHeader {
-    border-bottom: 1px solid white;
-    width: auto;
+    border-bottom: 1px solid #E2E2CF;
     display: inline-block;
-    padding: 2% 0% 0.5% 0%;
-    margin: 5% 5% 2% 0%;
-    letter-spacing: 3px;
+    padding: 0% 0% 1% 0%;
+    margin: 10% 0% 5% 0%;
 }
 
 .joinButton {
@@ -117,6 +143,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10%;
+    margin-top: 5%;
     cursor: pointer;
 }
 
