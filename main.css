@@ -106,7 +106,7 @@ div {
     border-bottom: 1px solid #E2E2CF;
     display: inline-block;
     padding: 0% 0% 1% 0%;
-    margin: 5% 0 5% 0;
+    margin: 8% 0 5% 0;
 }
 
 .applicationSectionHeader {
@@ -186,4 +186,9 @@ a.nav-link{
     .joinButton {
         width: 100%;
     }
+
+    .application {
+        margin: 12% 0 0 0;
+    }
+    
 }
