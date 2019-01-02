@@ -174,7 +174,7 @@ a.nav-link{
     margin-top: 5%;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 420px) {
     /* CSS that should be displayed if width is equal to or less than 400px goes here */
     body {
         margin-bottom: 600px; /* Margin bottom by footer height */
