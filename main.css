@@ -66,6 +66,12 @@ div {
     border-top:42px solid #3C5454;
 }
 
+.application {
+    color:#27261F;
+    overflow: visible; 
+    padding: 5% 5% 2% 8%;
+}
+
 .aboutImage {
     width: 300px;
     margin: 5% 0% 5% 0%;
@@ -85,6 +91,13 @@ div {
     display: inline-block;
     padding: 0% 0% 1% 0%;
     margin: 5% 0 5% 0;
+}
+
+.applicationSectionHeader {
+    border-bottom: 1px solid #E2E2CF;
+    display: inline-block;
+    padding: 0% 0% 1% 0%;
+    margin: 5% 0 0% 0;
 }
 
 .aboutText {
