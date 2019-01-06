@@ -16,6 +16,10 @@ div {
     letter-spacing: 3px;
 }
 
+.link {
+    color: #3C5454;
+}
+
 .heroImage {
     background-image: url('photos/sheepOnFarm.jpg');
     background-position: center;
