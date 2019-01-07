@@ -82,6 +82,10 @@ div {
     margin: 0 0;
 }
 
+.btn:hover {
+    background-color: #8EB8E2;
+}
+
 .beetlebung {
     background: #3C5454;
     color: #E2E2CF;
