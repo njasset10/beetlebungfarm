@@ -153,6 +153,17 @@ div {
     margin: 5% 0 3% 0;
 }
 
+.applicationBody {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+}
+
+.internalCard {
+    padding: 0 10% 0 10%;
+    border-width: 0;
+}
+
 .aboutText {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
