@@ -34,6 +34,15 @@ div {
     width: 100%;
 }
 
+.aboutUsImage {
+    background-image: url('photos/sheep.png');
+    background-position: center;
+    width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+}
+
 .firstText {
     background: #E2E2CF;
     color: #27261F;
@@ -143,7 +152,14 @@ div {
     border-bottom: 1px solid #27261F;
     display: inline-block;
     padding: 0% 0% 1% 0%;
-    margin: 8% 0 5% 0;
+    margin: 15% 0 5% 0;
+}
+
+.aboutText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    margin: 0% 0% 15% 0%;
 }
 
 .applicationSectionHeader {
@@ -164,15 +180,17 @@ div {
     border-width: 0;
 }
 
-.aboutText {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    letter-spacing: 2px;
-}
-
 .joinText {
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
+    margin: 0% 0% 5% 0%;
+}
+
+.joinSectionHeader {
+    border-bottom: 1px solid #E2E2CF;
+    display: inline-block;
+    padding: 0% 0% 1% 0%;
+    margin: 15% 0% 5% 0%;
 }
 
 .navbarStyle {
@@ -202,14 +220,7 @@ a.nav-link{
     background: #3C5454;
     color: #E2E2CF;
     overflow: visible;
-    padding: 3% 8% 3% 8%;
-}
-
-.joinSectionHeader {
-    border-bottom: 1px solid #E2E2CF;
-    display: inline-block;
-    padding: 0% 0% 1% 0%;
-    margin: 10% 0% 5% 0%;
+    /* padding: 3% 8% 3% 8%; */
 }
 
 .joinButton {
@@ -218,7 +229,7 @@ a.nav-link{
     font-family: 'Varela Round', sans serif;    
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     margin-top: 5%;
 }
 
@@ -233,7 +244,15 @@ a.nav-link{
     
     .joinButton {
         width: 100%;
+        border: 0;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
     }
+
+    .joinButton:hover {
+        background-color: #E2E2CF;
+        color: white;
+      }
 
     .application {
         margin: 12% 0 0 0;
